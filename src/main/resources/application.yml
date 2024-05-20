@@ -19,3 +19,8 @@ spring:
         default_batch_fetch_size: 1000
 server:
   port: 8080
+
+openApi:
+#   serviceKey: "2FK+LiX3igCZ0VGxui7olZjXXNYepuHjRnwO0lofDIg0RORmZmyHfuRkFYgdQXQzcrP0fJMEytwHLcx4ZEm+bw=="
+   serviceKey: "2FK%2BLiX3igCZ0VGxui7olZjXXNYepuHjRnwO0lofDIg0RORmZmyHfuRkFYgdQXQzcrP0fJMEytwHLcx4ZEm%2Bbw%3D%3D"
+   callBackUrl: "http://apis.data.go.kr/1400000/service/cultureInfoService/"
